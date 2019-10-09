@@ -20,7 +20,7 @@ function About() {
           id="About"
           className="header"
           style={{
-            "font-size": "50px",
+            "font-size": "40px",
             "font-family": "Montserrat",
             "padding-bottom": "20px",
             color: "#006E6D"
@@ -33,8 +33,10 @@ function About() {
         <Row>
           <Col md={8}>
             <Container>
-              <p className="subheader">
-                <mark style={{ "background-color": "#74dfdd0" }}>
+              <p className="text">
+                <mark
+                  style={{ "background-color": "#74dfdd0", color: "white" }}
+                >
                   I have a passion for all things tech and coding.
                 </mark>
                 I have always had an interest in art, design and technology

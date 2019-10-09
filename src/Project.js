@@ -25,7 +25,7 @@ const Projects = () => (
         <Header
           className="header"
           style={{
-            "font-size": "50px",
+            "font-size": "40px",
             "font-family": "Montserrat",
             "padding-bottom": "20px",
             color: "#006E6D"
@@ -34,7 +34,7 @@ const Projects = () => (
           Projects
         </Header>
       </Container>
-      <Container>
+      <Container style={{ height: "400px", width: "900px" }}>
         <Card.Group centered itemsPerRow={3} className="cardfont">
           <Card raised image={tapattend} href={taplink} target="_blank" />
           <Card

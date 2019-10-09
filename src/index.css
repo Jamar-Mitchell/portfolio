@@ -13,18 +13,24 @@ code {
 }
 
 .title {
-  font-size: 100px;
+  font-size: 80px;
   font-family: Montserrat;
   color: #006e6d;
   background: none;
 }
 .header {
-  font-size: 50px;
+  font-size: 25px;
   font-family: Montserrat;
   color: #006e6d;
 }
 .subheader {
-  font-size: 30px;
+  font-size: 28px;
+  font-family: Montserrat;
+  color: #006e6d;
+}
+
+.text {
+  font-size: 25px;
   font-family: Montserrat;
   color: #006e6d;
 }
