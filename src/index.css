@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.title {
+  font-size: 100px;
+  font-family: Montserrat;
+  color: #006e6d;
+  background: none;
+}
+.header {
+  font-size: 50px;
+  font-family: Montserrat;
+  color: #006e6d;
+}
+.subheader {
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #006e6d;
+}
+
+.moreShadow {
+  box-shadow: 0 16px 12px 0 rgba(0, 0, 0, 0.2),
+    0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardfont {
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+
+.hover-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-weight: bold;
+  z-index: 99999;
+  overflow: hidden;
+}
+
+.hover-label:hover img {
+  filter: brightness(50%) blur(3px);
+  transition: 0.5s;
+}
+
+.hover-label:hover .hover-caption {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+mark {
+  background-color: #74dfdd;
+}
+
+.background {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: 50% 50%;
+  position: absolute;
+  z-index: -999;
+  width: 300%;
+  height: 300%;
+}
+.content {
+  display: block;
+  z-index: 250;
+  margin: auto;
+}
+
+Card {
+  object-fit: contain;
+}
+
+html {
+  scroll-behavior: smooth;
+}

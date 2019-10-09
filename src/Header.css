@@ -1,0 +1,36 @@
+.header {
+  max-width: 1200px;
+}
+.inner {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  max-width: 1500px;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+.intro {
+  font-size: 72px;
+  margin-bottom: 15px;
+  letter-spacing: -2px;
+  font-weight: 400;
+}
+
+.padding {
+  padding: 100px;
+  padding-left: 250px;
+
+  position: relative;
+}
+
+.noback {
+  background: none;
+  font-weight: 400;
+}

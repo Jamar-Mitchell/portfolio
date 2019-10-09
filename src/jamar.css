@@ -1,0 +1,362 @@
+.bak {
+  top: 50%;
+}
+.jcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  overflow: hidden;
+  background: #006e6d;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+.sec {
+  width: 100%;
+  padding: 64px 32px;
+  position: relative;
+  height: 50vh;
+  min-height: 324px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person {
+  width: 196px;
+  height: 196px;
+  position: relative;
+  top: -40px;
+}
+@keyframes blink {
+  4% {
+    border-radius: 50%;
+    height: 20px;
+  }
+  7% {
+    border-radius: 0%;
+    height: 10px;
+  }
+  10% {
+    border-radius: 50%;
+    height: 20px;
+  }
+  100% {
+    border-radius: 50%;
+    height: 20px;
+  }
+}
+@keyframes closemouth {
+  0% {
+    border-radius: 50%;
+    height: 20px;
+    background: #ff7e94;
+  }
+  5% {
+    border-radius: 0%;
+    height: 10px;
+    background: #623c2f;
+  }
+  75% {
+    border-radius: 0%;
+    height: 10px;
+    background: #623c2f;
+  }
+  80% {
+    border-radius: 50%;
+    height: 20px;
+    background: #ff7e94;
+  }
+  100% {
+    border-radius: 50%;
+    height: 20px;
+  }
+}
+@keyframes closemouthtounge {
+  0% {
+    visibility: visible;
+    border-radius: 50%;
+    height: 12px;
+  }
+  3% {
+    visibility: hidden;
+    border-radius: 0%;
+    height: 0px;
+  }
+  77.5% {
+    visibility: hidden;
+    border-radius: 0%;
+    height: 0px;
+  }
+  80% {
+    visibility: visible;
+    border-radius: 50%;
+    height: 12px;
+  }
+  100% {
+    visibility: visible;
+    border-radius: 50%;
+    height: 12px;
+  }
+}
+#jamar .face {
+  position: absolute;
+  width: 140px;
+  height: 150px;
+  background: #a76750;
+  border-radius: 48%;
+  top: 20px;
+  left: 14%;
+  z-index: 3;
+}
+#jamar .neck {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  background: #965c48;
+  border-radius: 40%;
+  top: 140px;
+  left: 35%;
+  z-index: 0;
+}
+#jamar .tshirt {
+  position: absolute;
+  width: 160px;
+  height: 140px;
+  background: #d9d9d9;
+  border-radius: 40%;
+  top: 160px;
+  left: 10%;
+  z-index: 0;
+}
+#jamar .j {
+  position: absolute;
+  top: 10px;
+  left: 29%;
+  text-align: center;
+  font-size: 20px;
+  color: #006e6d;
+  font-family: Montserrat;
+  font-weight: 40px;
+}
+#jamar .hair {
+  position: absolute;
+  width: 145px;
+  height: 80px;
+  background: #0d0d0d;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  top: 5px;
+  left: 13%;
+  z-index: 2;
+}
+#jamar .hair:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  top: -20px;
+  left: 10%;
+  z-index: 100;
+}
+#jamar .hair3 {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  left: 20%;
+  z-index: 100;
+}
+#jamar .hair4 {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  left: 35%;
+  z-index: 100;
+}
+#jamar .hair5 {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  left: 54%;
+  top: -3px;
+  z-index: 100;
+}
+#jamar .hair6 {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  left: 65%;
+  top: -5px;
+  z-index: 100;
+}
+#jamar .hair2 {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  left: 10%;
+  z-index: 100;
+}
+#jamar .hair7 {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  left: 30%;
+  top: -20px;
+  z-index: 100;
+}
+#jamar .hair8 {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  left: 50%;
+  top: -17px;
+  z-index: 100;
+}
+#jamar .eye {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  top: 55px;
+  left: 25%;
+  z-index: 9;
+  animation: blink 8s infinite ease-in-out;
+}
+#jamar .eye:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  top: 0px;
+  left: 50px;
+  z-index: 9;
+  animation: blink 8s infinite ease-in-out;
+}
+#jamar .nose {
+  position: absolute;
+  background: #623c2f;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 43%;
+  left: 45%;
+  z-index: 10;
+}
+#jamar .mouth {
+  position: absolute;
+  background: #ff7e94;
+  height: 20px;
+  width: 30px;
+  border-radius: 50%;
+  top: 65%;
+  left: 40%;
+  z-index: 10;
+  animation: closemouth 15s infinite ease-in-out;
+  animation-delay: 5s;
+}
+#jamar .mouth1 {
+  position: absolute;
+  background: #623c2f;
+  height: 10px;
+  width: 30px;
+  border-radius: 0%;
+  top: 65%;
+  left: 40%;
+  z-index: 10;
+}
+#jamar .mouth:hover {
+  position: absolute;
+  background: #ff7e94;
+  height: 20px;
+  width: 30px;
+  border-radius: 50%;
+  top: 65%;
+  left: 40%;
+  z-index: 10;
+  animation: closemouth 10s infinite ease-in-out;
+  animation-delay: 5s;
+}
+#jamar .tounge {
+  position: absolute;
+  background: #ff6e88;
+  height: 12px;
+  width: 20px;
+  border-radius: 50%;
+  top: 70%;
+  left: 46%;
+  z-index: 10;
+  animation: closemouthtounge 15s infinite ease-in-out;
+  animation-delay: 5s;
+}
+#jamar .leftear {
+  position: absolute;
+  background: #a76750;
+  height: 30px;
+  width: 20px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  top: 40%;
+  left: 8%;
+  z-index: 1;
+}
+#jamar .rightear {
+  position: absolute;
+  background: #a76750;
+  height: 30px;
+  width: 20px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  top: 40%;
+  left: 82%;
+  z-index: 1;
+}
+#jamar .earring {
+  position: absolute;
+  background: goldenrod;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  top: 50%;
+  left: 85%;
+  z-index: 1;
+}
+#jamar .earring2 {
+  position: absolute;
+  background: goldenrod;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  top: 50%;
+  left: 10%;
+  z-index: 1;
+}
