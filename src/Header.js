@@ -8,20 +8,52 @@ import {
   faBehance
 } from "@fortawesome/free-brands-svg-icons";
 import "./index.css";
+import "./animate.css";
 
 function Header() {
   return (
     <div className="content x">
-      <Container style={{ padding: "200px", width: "100%", height: "1000px" }}>
-        <h1 className="title">
+      <Container
+        style={{
+          paddingLeft: "200px",
+          paddingRight: "200px",
+          paddingTop: "125px",
+          width: "100%",
+          height: "900px"
+        }}
+      >
+        <h1
+          className="title "
+          style={{
+            animation: "slideInDown 1.2s",
+            animationFillMode: "forwards"
+          }}
+        >
           Hey! <br /> I'm Jamar :)
         </h1>
-        <p className="subheader">
+        <p
+          className="subheader"
+          style={{
+            visibility: "hidden",
+            animation: "slideInLeft 1.2s",
+            animationFillMode: "forwards",
+            animationDelay: "1s"
+          }}
+        >
           I'm a Computer Engineering graduate and an aspiring Full Stack
           Developer
         </p>
         <div
-          style={{ paddingBottom: "200px", display: "block", float: "left" }}
+          className="pulse"
+          style={{
+            visibility: "hidden",
+            paddingBottom: "200px",
+            display: "block",
+            float: "left",
+            animation: "slideInUp 1.2s",
+            animationFillMode: "forwards",
+            animationDelay: "2s"
+          }}
         >
           <a
             href="https://www.linkedin.com/in/jamar-mitchell-456b18b5/"

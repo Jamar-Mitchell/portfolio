@@ -11,6 +11,10 @@ function NavbarJS() {
       position="fixed"
       variant="light"
       style={{
+        visibility: "hidden",
+        animation: "slideInDown 1.2s",
+        animationFillMode: "forwards",
+        animationDelay: "3s",
         backgroundColor: "rgb(255,255,255,.75)",
         width: "100%"
       }}

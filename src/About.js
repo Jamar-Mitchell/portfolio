@@ -10,6 +10,7 @@ import {
   faBehance
 } from "@fortawesome/free-brands-svg-icons";
 import "./index.css";
+import "./animate.css";
 
 const jamar = require("./images/me.png");
 function About() {
@@ -33,7 +34,7 @@ function About() {
         <Row>
           <Col md={8}>
             <Container>
-              <p className="text">
+              <p className="text ">
                 <mark style={{ backgroundColor: "#74dfdd0", color: "white" }}>
                   I have a passion for all things tech and coding.
                 </mark>
