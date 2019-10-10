@@ -8,7 +8,7 @@ const Particle = () => (
     params={{
       particles: {
         number: { value: 350, density: { enable: true, value_area: 700 } },
-        color: { value: "#45c56b" },
+        color: { value: "#74dfdd" },
         shape: {
           type: "circle",
           stroke: { width: 0, color: "#000000" },
@@ -47,7 +47,7 @@ const Particle = () => (
         detect_on: "canvas",
         events: {
           onhover: { enable: false, mode: "repulse" },
-          onclick: { enable: true, mode: "push" },
+          onclick: { enable: false, mode: "push" },
           resize: true
         },
         modes: {

@@ -77,13 +77,28 @@ mark {
 .background {
   background-color: rgb(255, 255, 255);
   background-size: cover;
+  position: fixed;
   background-repeat: repeat-y;
   background-position: 50% 50%;
-  position: absolute;
   z-index: -999;
-  width: 300%;
-  height: 300%;
+  width: 100%;
+  height: 100%;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .content {
   display: block;
   z-index: 250;

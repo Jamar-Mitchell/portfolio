@@ -34,9 +34,7 @@ function About() {
           <Col md={8}>
             <Container>
               <p className="text">
-                <mark
-                  style={{ "background-color": "#74dfdd0", color: "white" }}
-                >
+                <mark style={{ backgroundColor: "#74dfdd0", color: "white" }}>
                   I have a passion for all things tech and coding.
                 </mark>
                 I have always had an interest in art, design and technology

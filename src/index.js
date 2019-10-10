@@ -4,10 +4,13 @@ import "./index.css";
 import Header from "./Header";
 import Projects from "./Project.js";
 import Particle from "./particles";
+import NavbarJS from "./NavbarJS";
 import About from "./About";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import * as serviceWorker from "./serviceWorker";
+
+ReactDOM.render(<NavbarJS />, document.getElementById("NavbarJS"));
 
 ReactDOM.render(<Particle />, document.getElementById("Particles"));
 

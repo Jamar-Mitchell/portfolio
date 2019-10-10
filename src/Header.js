@@ -12,42 +12,6 @@ import "./index.css";
 function Header() {
   return (
     <div className="content x">
-      <Navbar
-        sticky="top"
-        variant="light"
-        style={{
-          float: "right",
-          "text-align": "right",
-          backgroundColor: "white",
-          width: "100%",
-          opacity: ".90"
-        }}
-      >
-        <Navbar.Brand
-          href="#home"
-          style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
-        ></Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link
-            href="#About"
-            style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
-          >
-            About
-          </Nav.Link>
-          <Nav.Link
-            href="#Projects"
-            style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
-          >
-            Projects
-          </Nav.Link>
-          <Nav.Link
-            href="#Resume"
-            style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
-          >
-            Resume
-          </Nav.Link>
-        </Nav>
-      </Navbar>
       <Container style={{ padding: "200px", width: "100%", height: "1000px" }}>
         <h1 className="title">
           Hey! <br /> I'm Jamar :)
