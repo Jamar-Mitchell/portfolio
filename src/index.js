@@ -5,6 +5,7 @@ import Header from "./Header";
 import Projects from "./Project.js";
 import Particle from "./particles";
 import NavbarJS from "./NavbarJS";
+import Activities from "./Activities";
 import About from "./About";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -19,6 +20,8 @@ ReactDOM.render(<Header />, document.getElementById("Header"));
 ReactDOM.render(<About />, document.getElementById("About"));
 
 ReactDOM.render(<Projects />, document.getElementById("Portfolio"));
+
+ReactDOM.render(<Activities />, document.getElementById("Activities"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

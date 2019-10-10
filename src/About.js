@@ -15,7 +15,10 @@ import "./animate.css";
 const jamar = require("./images/me.png");
 function About() {
   return (
-    <div className="content" style={{ paddingBottom: "200px" }}>
+    <div
+      className="content"
+      style={{ paddingBottom: "200px", paddingTop: "100px" }}
+    >
       <Container style={{ "padding-bottom": "20px" }}>
         <Header
           id="About"
@@ -35,7 +38,7 @@ function About() {
           <Col md={8}>
             <Container>
               <p className="text ">
-                <mark style={{ backgroundColor: "#74dfdd0", color: "white" }}>
+                <mark style={{ backgroundColor: "#74dfdd0", color: "#006E6D" }}>
                   I have a passion for all things tech and coding.
                 </mark>
                 I have always had an interest in art, design and technology
@@ -43,6 +46,9 @@ function About() {
                 <br /> <br /> Solving new challenging problems, learning and
                 growing as both a coder a human is what motivates me every
                 morning.
+                <br />
+                <br /> And if you couldn't tell, my favorite color is
+                <b> Green!</b>
               </p>
             </Container>
           </Col>

@@ -37,6 +37,12 @@ function NavbarJS() {
           Projects
         </Nav.Link>
         <Nav.Link
+          href="#Activities"
+          style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
+        >
+          Activities
+        </Nav.Link>
+        <Nav.Link
           href="#Resume"
           style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
         >
