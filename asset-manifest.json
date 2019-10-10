@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c46d35f1.chunk.css",
+    "main.css": "/portfolio/static/css/main.88f59c76.chunk.css",
     "main.js": "/portfolio/static/js/main.c35d122a.chunk.js",
     "main.js.map": "/portfolio/static/js/main.c35d122a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bceb1215.js",
@@ -9,10 +9,10 @@
     "static/js/2.b103b393.chunk.js": "/portfolio/static/js/2.b103b393.chunk.js",
     "static/js/2.b103b393.chunk.js.map": "/portfolio/static/js/2.b103b393.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.caab19aaba22d7cdc7aba94acbb00785.js": "/portfolio/precache-manifest.caab19aaba22d7cdc7aba94acbb00785.js",
+    "precache-manifest.20677b41a8c118bf5482775275e27868.js": "/portfolio/precache-manifest.20677b41a8c118bf5482775275e27868.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/portfolio/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.c46d35f1.chunk.css.map": "/portfolio/static/css/main.c46d35f1.chunk.css.map",
+    "static/css/main.88f59c76.chunk.css.map": "/portfolio/static/css/main.88f59c76.chunk.css.map",
     "static/media/cookhelper.jpg": "/portfolio/static/media/cookhelper.df5f9cc8.jpg",
     "static/media/ezsponsorlogo.jpg": "/portfolio/static/media/ezsponsorlogo.790857b8.jpg",
     "static/media/materialspec.png": "/portfolio/static/media/materialspec.9d54c5c9.png",
