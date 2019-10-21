@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0e5e4d5a458a66a7c249603c28055a1",
+    "revision": "a091aa1e12732c807694937059607134",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "fd9306017aaa765aea5d",
+    "revision": "1726239245f48311117c",
     "url": "/portfolio/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "76e7e8329107e2f6dc3f",
+    "revision": "93be3f0a1633d38b0d4d",
     "url": "/portfolio/static/css/main.88f59c76.chunk.css"
   },
   {
-    "revision": "fd9306017aaa765aea5d",
-    "url": "/portfolio/static/js/2.867d8ff8.chunk.js"
+    "revision": "1726239245f48311117c",
+    "url": "/portfolio/static/js/2.378be5a4.chunk.js"
   },
   {
-    "revision": "76e7e8329107e2f6dc3f",
-    "url": "/portfolio/static/js/main.b0a2d8af.chunk.js"
+    "revision": "93be3f0a1633d38b0d4d",
+    "url": "/portfolio/static/js/main.09fdd4a6.chunk.js"
   },
   {
     "revision": "32f9199c3476d1e69b39",
     "url": "/portfolio/static/js/runtime-main.bceb1215.js"
   },
   {
-    "revision": "df5f9cc8a442d0721d9777d655315787",
-    "url": "/portfolio/static/media/cookhelper.df5f9cc8.jpg"
+    "revision": "957cab7ffe4cb6747efe75d6afc4e34a",
+    "url": "/portfolio/static/media/baroInvert.957cab7f.jpg"
+  },
+  {
+    "revision": "3b02f5ff95b151c1efc641083e908a38",
+    "url": "/portfolio/static/media/cookhelper.3b02f5ff.jpg"
   },
   {
     "revision": "7dc65d8c0de905d7744bac352d6f05d4",
@@ -36,12 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/ezsponsorlogo.790857b8.jpg"
   },
   {
-    "revision": "9d54c5c90798b243c8b80a8dc6476535",
-    "url": "/portfolio/static/media/materialspec.9d54c5c9.png"
+    "revision": "9adbd1e00704640576269f827efc31e3",
+    "url": "/portfolio/static/media/materialspec.9adbd1e0.png"
   },
   {
     "revision": "42a4ee854b7588a088ba31c7dc428aa3",
     "url": "/portfolio/static/media/me.42a4ee85.png"
+  },
+  {
+    "revision": "2703d421ff4c1c5095629454bc403332",
+    "url": "/portfolio/static/media/tapattendInvert.2703d421.jpg"
   },
   {
     "revision": "13646829a84a5785ddba9b3a7b56623c",
