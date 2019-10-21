@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e549339f16b35a1ee5a30fa168df62c8",
+    "revision": "761c366837db8098a9ae6ae44df72de2",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1726239245f48311117c",
+    "revision": "1fed6b517ef848862b31",
     "url": "/portfolio/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "ec79ff01b8cbe256b770",
+    "revision": "10ab7ba079416bc45e61",
     "url": "/portfolio/static/css/main.a31e0216.chunk.css"
   },
   {
-    "revision": "1726239245f48311117c",
-    "url": "/portfolio/static/js/2.378be5a4.chunk.js"
+    "revision": "1fed6b517ef848862b31",
+    "url": "/portfolio/static/js/2.7b9f890d.chunk.js"
   },
   {
-    "revision": "ec79ff01b8cbe256b770",
-    "url": "/portfolio/static/js/main.6c1c661d.chunk.js"
+    "revision": "10ab7ba079416bc45e61",
+    "url": "/portfolio/static/js/main.3e41c073.chunk.js"
   },
   {
     "revision": "32f9199c3476d1e69b39",
     "url": "/portfolio/static/js/runtime-main.bceb1215.js"
+  },
+  {
+    "revision": "e7affce811de9ffd063b50627bf2ec3c",
+    "url": "/portfolio/static/media/Jamar-Resume.e7affce8.pdf"
   },
   {
     "revision": "957cab7ffe4cb6747efe75d6afc4e34a",
