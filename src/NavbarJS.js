@@ -4,6 +4,8 @@ import {} from "@fortawesome/free-solid-svg-icons";
 
 import "./index.css";
 
+const resume = require("./images/Jamar-Resume.pdf");
+
 function NavbarJS() {
   return (
     <Navbar
@@ -38,12 +40,15 @@ function NavbarJS() {
         </Nav.Link>
         <Nav.Link
           href="#Activities"
+          download
           style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
         >
           Activities
         </Nav.Link>
         <Nav.Link
-          href="#Resume"
+          href={resume}
+          download="Jamar Mitchell Resume"
+          target="_blank"
           style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
         >
           Resume

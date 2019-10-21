@@ -7,13 +7,13 @@ const materiallink = "";
 
 const white = require("./images/white.png");
 const hack6 = require("./images/hack6.png");
-const taplink = "https://github.com/Jamar-Mitchell/TapAttend";
+const hack6link = "";
 
 const oxfordhack = require("./images/oxfordhack.jpg");
-const barolink = "https://devpost.com/software/baro-hnrm3a";
+const oxfordhacklink = "";
 
 const elevatehack = require("./images/elevatehack.png");
-const cooklink = "https://github.com/Jamar-Mitchell/CookHelper";
+const elevatehacklink = "";
 
 const ezsponsor = require("./images/ezsponsorlogo.jpg");
 const ezlink = "https://github.com/Jamar-Mitchell/EZSponsor";
@@ -36,19 +36,19 @@ const Activities = () => (
       </Container>
       <Container style={{ height: "400px", width: "800px" }}>
         <Card.Group centered itemsPerRow={3} className="cardfont">
-          <Card
-            raised
-            className="moreShadow"
-            href={materiallink}
-            target="_blank"
-          >
+          <Card raised className="moreShadow" href={hack6link} target="_blank">
             <Image src={hack6} wrapped ui={false} />
             <Card.Content extra style={{ fontSize: "18px" }}>
               Hack the 6ix 2019
             </Card.Content>
           </Card>
 
-          <Card raised className="moreShadow" href={oxfordhack} target="_blank">
+          <Card
+            raised
+            className="moreShadow"
+            href={oxfordhacklink}
+            target="_blank"
+          >
             <Image src={oxfordhack} wrapped ui={false} />
             <Card.Content extra style={{ fontSize: "18px" }}>
               Oxford Global Hackathon 2019
@@ -58,7 +58,7 @@ const Activities = () => (
           <Card
             raised
             className="moreShadow"
-            href={materiallink}
+            href={elevatehacklink}
             target="_blank"
           >
             <Image src={elevatehack} wrapped ui={false} />

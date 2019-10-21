@@ -5,7 +5,7 @@ import "./jamar.css";
 
 function Jamar() {
   return (
-    <div>
+    <div style={{ paddingTop: "25%" }}>
       <div className="bak">
         <div className="jcontainer">
           <div className="person" id="jamar">
