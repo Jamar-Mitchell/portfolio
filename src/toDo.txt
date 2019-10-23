@@ -1,0 +1,4 @@
+-make hover action on navbar
+-possibly add hobbies section
+-adjust jamar animation
+- add google anayltics **

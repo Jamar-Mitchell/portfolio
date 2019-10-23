@@ -5,8 +5,8 @@ import "./jamar.css";
 
 function Jamar() {
   return (
-    <div style={{ paddingTop: "25%" }}>
-      <div className="bak">
+    <div style={{ paddingTop: "60%" }}>
+      <div className="bak scaled">
         <div className="jcontainer">
           <div className="person" id="jamar">
             <div className="tshirt">

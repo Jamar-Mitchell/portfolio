@@ -20,14 +20,15 @@ const cooklink = "https://github.com/Jamar-Mitchell/CookHelper";
 const ezsponsor = require("./images/ezsponsorlogo.jpg");
 const ezlink = "https://github.com/Jamar-Mitchell/EZSponsor";
 
-const Projects = () => (
-  <div style={{ "padding-bottom": "200px" }}>
-    <div className="content" id="Projects">
-      <Container style={{ "padding-bottom": "20px" }}>
+function Projects() {
+  return (
+    <div className="content">
+      <Container>
         <Header
+          id="Projects"
           className="header"
           style={{
-            "font-size": "40px",
+            "font-size": "2em",
             "font-family": "Montserrat",
             "padding-bottom": "20px",
             color: "#006E6D"
@@ -36,7 +37,7 @@ const Projects = () => (
           Projects
         </Header>
       </Container>
-      <Container style={{ height: "400px", width: "800px" }}>
+      <Container style={{ width: "35rem" }}>
         <Card.Group centered itemsPerRow={3} className="cardfont">
           <Card raised image={tapattendInvert} href={taplink} target="_blank" />
 
@@ -74,7 +75,7 @@ const Projects = () => (
         </Card.Group>
       </Container>
     </div>
-  </div>
-);
+  );
+}
 
 export default Projects;

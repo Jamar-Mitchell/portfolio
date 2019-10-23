@@ -12,26 +12,19 @@ import "./animate.css";
 
 function Header() {
   return (
-    <div className="content x">
-      <Container
-        style={{
-          paddingLeft: "200px",
-          paddingRight: "200px",
-          paddingTop: "125px",
-          width: "100%",
-          height: "800px"
-        }}
-      >
+    <div className="content full">
+      <Container>
         <h1
           className="title "
           style={{
             animation: "slideInDown 1.2s",
-            animationFillMode: "forwards"
+            animationFillMode: "forwards",
+            paddingTop: "30vh"
           }}
         >
           Hey! <br /> I'm Jamar :)
         </h1>
-        <p
+        <h4
           className="subheader"
           style={{
             visibility: "hidden",
@@ -42,12 +35,11 @@ function Header() {
         >
           I'm a Computer Engineering graduate and an aspiring Full Stack
           Developer
-        </p>
+        </h4>
         <div
           className="pulse"
           style={{
             visibility: "hidden",
-            paddingBottom: "200px",
             display: "block",
             float: "left",
             animation: "slideInUp 1.2s",
@@ -60,9 +52,10 @@ function Header() {
             target="_blank"
           >
             <FontAwesomeIcon
+              h1
               icon={faLinkedin}
               style={{
-                fontSize: "70px",
+                fontSize: "3.5em",
                 color: "#006e6d",
                 paddingRight: "20px"
               }}
@@ -73,7 +66,7 @@ function Header() {
             <FontAwesomeIcon
               icon={faGithub}
               style={{
-                fontSize: "70px",
+                fontSize: "3.5em",
                 color: "#006e6d",
                 paddingRight: "20px"
               }}
@@ -84,7 +77,7 @@ function Header() {
             <FontAwesomeIcon
               icon={faBehance}
               style={{
-                fontSize: "70px",
+                fontSize: "3.5em",
                 color: "#006e6d",
                 paddingRight: "20px"
               }}

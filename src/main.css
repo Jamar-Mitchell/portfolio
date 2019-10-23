@@ -1,0 +1,10 @@
+.subheader {
+  font-size: calc(1.275rem0.3vw);
+}
+@media (min-width: 1200px) {
+  .subheader {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

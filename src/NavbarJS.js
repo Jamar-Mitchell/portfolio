@@ -10,9 +10,10 @@ function NavbarJS() {
   return (
     <Navbar
       sticky="top"
-      position="fixed"
       variant="light"
       style={{
+        position: "fixed",
+        top: 0,
         visibility: "hidden",
         animation: "slideInDown 1.2s",
         animationFillMode: "forwards",
@@ -39,11 +40,10 @@ function NavbarJS() {
           Projects
         </Nav.Link>
         <Nav.Link
-          href="#Activities"
-          download
+          href="#Hackathons"
           style={{ color: "#006e6d", fontSize: "20px", fontWeight: "20px" }}
         >
-          Activities
+          Hackathons
         </Nav.Link>
         <Nav.Link
           href={resume}
