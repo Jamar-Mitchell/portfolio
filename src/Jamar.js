@@ -1,7 +1,8 @@
 import React from "react";
-import { Container, Card, Row, Col, Image } from "react-bootstrap";
 
 import "./jamar.css";
+
+import $ from "jQuery";
 
 function Jamar() {
   return (
@@ -29,7 +30,12 @@ function Jamar() {
             <div className="hair8"></div>
             <div className="neck"></div>
             <div className="face">
-              <div className="eye"></div>
+              <div class="eye">
+                <div class="pupil"></div>
+              </div>
+              <div class="eye2">
+                <div class="pupil"></div>
+              </div>
               <div className="nose"> </div>
               <div className="mouth"> </div>
               <div className="tounge"> </div>

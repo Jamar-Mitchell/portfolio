@@ -126,3 +126,34 @@
 
 <script>var Alert = ReactBootstrap.Alert;</script>
 
+<script> 
+$("body").mousemove(function(event) {
+  var pupil = $(".eye");
+  var x = pupil.offset().left + pupil.width() / 2;
+  var y = pupil.offset().top + pupil.height() / 2;
+  var rad = Math.atan2(event.pageX - x, event.pageY - y);
+  var rot = rad * (180 / Math.PI) * -1 + 180;
+  pupil.css({
+    "-webkit-transform": "rotate(" + rot + "deg)",
+    "-moz-transform": "rotate(" + rot + "deg)",
+    "-ms-transform": "rotate(" + rot + "deg)",
+    transform: "rotate(" + rot + "deg)"
+  });
+});
+
+$("body").mousemove(function(event) {
+  var pupil = $(".eye2");
+  var x = pupil.offset().left + pupil.width() / 2;
+  var y = pupil.offset().top + pupil.height() / 2;
+  var rad = Math.atan2(event.pageX - x, event.pageY - y);
+  var rot = rad * (180 / Math.PI) * -1 + 180;
+  pupil.css({
+    "-webkit-transform": "rotate(" + rot + "deg)",
+    "-moz-transform": "rotate(" + rot + "deg)",
+    "-ms-transform": "rotate(" + rot + "deg)",
+    transform: "rotate(" + rot + "deg)"
+  });
+});
+
+</script>
+

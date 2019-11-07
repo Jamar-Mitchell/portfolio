@@ -262,7 +262,8 @@
   z-index: 100;
 }
 #jamar .eye {
-  position: absolute;
+  position: relative;
+  display: inline-block;
   width: 20px;
   height: 20px;
   background: #0d0d0d;
@@ -270,20 +271,30 @@
   top: 55px;
   left: 25%;
   z-index: 9;
-  animation: blink 8s infinite ease-in-out;
 }
-#jamar .eye:after {
-  content: "";
-  position: absolute;
+#jamar .eye2 {
+  position: relative;
+  display: inline-block;
   width: 20px;
   height: 20px;
   background: #0d0d0d;
   border-radius: 50%;
-  top: 0px;
-  left: 50px;
+  top: 55px;
+  left: 45%;
   z-index: 9;
-  animation: blink 8s infinite ease-in-out;
 }
+#jamar .pupil {
+  /*pupil*/
+  position: absolute;
+  bottom: 11px;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  background: #744737;
+  border-radius: 50%;
+  content: " ";
+}
+
 #jamar .nose {
   position: absolute;
   background: #623c2f;

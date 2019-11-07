@@ -39,7 +39,7 @@ function About() {
                   <mark
                     style={{ backgroundColor: "#74dfdd0", color: "#006E6D" }}
                   >
-                    I have a passion for all things tech and coding.
+                    I have a passion for technology and and creativity.
                   </mark>
                   I have also always had an interest in art, design and
                   technology. To be able to combine two things that I love ,
