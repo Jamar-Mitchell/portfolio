@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf78c56a.chunk.css",
+    "main.css": "/portfolio/static/css/main.5f29f7ac.chunk.css",
     "main.js": "/portfolio/static/js/main.cd31c5a8.chunk.js",
     "main.js.map": "/portfolio/static/js/main.cd31c5a8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f69b92b3.js",
@@ -9,10 +9,10 @@
     "static/js/2.6a74dabd.chunk.js": "/portfolio/static/js/2.6a74dabd.chunk.js",
     "static/js/2.6a74dabd.chunk.js.map": "/portfolio/static/js/2.6a74dabd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.019d1a173e70a9a87036a0a4fd201c72.js": "/portfolio/precache-manifest.019d1a173e70a9a87036a0a4fd201c72.js",
+    "precache-manifest.a723952a41c115190c154b1cc87645d7.js": "/portfolio/precache-manifest.a723952a41c115190c154b1cc87645d7.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/portfolio/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.bf78c56a.chunk.css.map": "/portfolio/static/css/main.bf78c56a.chunk.css.map",
+    "static/css/main.5f29f7ac.chunk.css.map": "/portfolio/static/css/main.5f29f7ac.chunk.css.map",
     "static/media/Jamar-Resume.pdf": "/portfolio/static/media/Jamar-Resume.df9503e6.pdf",
     "static/media/baroInvert.jpg": "/portfolio/static/media/baroInvert.957cab7f.jpg",
     "static/media/cookhelper.jpg": "/portfolio/static/media/cookhelper.3b02f5ff.jpg",
