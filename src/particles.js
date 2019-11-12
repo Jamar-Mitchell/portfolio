@@ -21,12 +21,12 @@ const Particle = () => (
           anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
         },
         size: {
-          value: 2.6,
+          value: 2.7,
           random: true,
           anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
         },
         line_linked: {
-          enable: true,
+          enable: false,
           distance: 150,
           color: "#ffffff",
           opacity: 0.4,
@@ -34,7 +34,7 @@ const Particle = () => (
         },
         move: {
           enable: true,
-          speed: 1.6023971861905395,
+          speed: 2,
           direction: "none",
           random: true,
           straight: false,

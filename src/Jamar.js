@@ -6,7 +6,7 @@ import $ from "jQuery";
 
 function Jamar() {
   return (
-    <div style={{ paddingTop: "60%" }}>
+    <div style={{ paddingTop: "50%" }}>
       <div className="bak scaled">
         <div className="jcontainer">
           <div className="person" id="jamar">
