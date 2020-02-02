@@ -33,7 +33,7 @@ function About() {
 
         <Container>
           <Row>
-            <Col md={8} sm={8} xs={8}>
+            <Col md={9} sm={12} xs={12}>
               <Container>
                 <p className="text ">
                   <mark
@@ -68,8 +68,15 @@ function About() {
                 </p>
               </Container>
             </Col>
-            <Col>
-              <Container md={1} sm={1} xs={1} style={{ position: "absolute" }}>
+            <Col
+              md={3}
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
+            >
+              <Container>
                 <Jamar />
               </Container>
             </Col>

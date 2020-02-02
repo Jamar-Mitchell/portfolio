@@ -6,8 +6,16 @@ import $ from "jQuery";
 
 function Jamar() {
   return (
-    <div style={{ paddingTop: "50%" }}>
-      <div className="bak scaled">
+    <div>
+      <div
+        className="scaled"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column"
+        }}
+      >
         <div className="jcontainer">
           <div className="person" id="jamar">
             <div className="tshirt">
