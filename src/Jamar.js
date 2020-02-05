@@ -2,8 +2,6 @@ import React from "react";
 
 import "./jamar.css";
 
-import $ from "jQuery";
-
 function Jamar() {
   return (
     <div>
