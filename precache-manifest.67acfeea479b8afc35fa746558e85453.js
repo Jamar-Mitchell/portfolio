@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ead39aa2f0d3473ed21f1e322d703971",
+    "revision": "1a5d992ba3ef604ecfc655cbcd4dd6b9",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,24 +8,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "720270de0b707cc62729",
-    "url": "/portfolio/static/css/main.f7668885.chunk.css"
+    "revision": "01cbc54610a4622bbce1",
+    "url": "/portfolio/static/css/main.8576cfa8.chunk.css"
   },
   {
     "revision": "1b51d84cda665f66fa5e",
     "url": "/portfolio/static/js/2.6a74dabd.chunk.js"
   },
   {
-    "revision": "720270de0b707cc62729",
-    "url": "/portfolio/static/js/main.c38e233d.chunk.js"
+    "revision": "01cbc54610a4622bbce1",
+    "url": "/portfolio/static/js/main.40bbfa8b.chunk.js"
   },
   {
     "revision": "3bb6be1ea0653ce98535",
     "url": "/portfolio/static/js/runtime-main.f69b92b3.js"
   },
   {
-    "revision": "df9503e62cc5e59967085276cd179c6a",
-    "url": "/portfolio/static/media/Jamar-Resume.df9503e6.pdf"
+    "revision": "7b6df537fd202820b77585dbaadc3686",
+    "url": "/portfolio/static/media/Jamar-Resume.7b6df537.pdf"
   },
   {
     "revision": "957cab7ffe4cb6747efe75d6afc4e34a",
